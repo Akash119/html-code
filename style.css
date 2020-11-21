@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.responsive-test{
+    color: salmon;
+    background-color: springgreen;
+    text-align: center;
+    font-size: 30px;
+}
+
+@media (max-width: 1200px) {
+    .responsive-test{
+        color: red;
+        background-color: royalblue;
+    }
+}
+
+@media (max-width: 1000px) {
+    .responsive-test{
+        color: wheat;
+        background-color: yellow;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .responsive-test{
+        color: blue;
+        background-color: palevioletred;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .responsive-test{
+        color: green;
+        background-color: gray;
+        font-size: 15px;
+    }
+}
